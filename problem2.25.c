@@ -4,7 +4,7 @@ float sum_elements(float a[], unsigned length) {
   int i;
   float result = 0;
 
-  for (i = 0; i < length - 1; i++) {
+  for (i = 0; i <= length - 1; i++) {
     result += a[i];
   }
 
@@ -14,5 +14,6 @@ float sum_elements(float a[], unsigned length) {
 int main() {
   float arr[] = { 1.0, 2.0 };
   float result = sum_elements(arr, 0);
+  printf("result = %f\n", result);
   return 0;
 }
