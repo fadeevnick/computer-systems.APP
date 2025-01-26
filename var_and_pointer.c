@@ -9,8 +9,7 @@ int main()
     printf("%i", x);
     printf("\n");
 
-    printf("address = ");
-    printf("%i\n", address);
+    printf("address = %i\n", address);
     printf("%x", address);
     printf("\n");
     return 0;
