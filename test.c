@@ -12,7 +12,7 @@ void show_bytes(byte_pointer start, size_t len) {
 }
 
 int main() {
-  // printf("%.2d\n", INT_MAX);
+  printf("%.2d\n", INT_MAX);
   short sx = -12345;
   unsigned short usx = sx;
   int x = sx;
